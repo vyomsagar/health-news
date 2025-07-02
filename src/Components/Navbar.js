@@ -1,10 +1,9 @@
 import Container from "react-bootstrap/Container";
-import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 
 const categories = ["health", "technology", "sports", "science"];
 
-export const Navbar_filter = ({ setCategory }) => {
+export const Navbarfilter = ({ setCategory }) => {
   return (
     <Navbar expand="lg" bg="dark" variant="dark">
       <Container>
